@@ -210,4 +210,4 @@ plt.tight_layout()
 plt.show()
 
 # Uncomment the next line if you want to save the figure
-plt.savefig('./figures/Burgers.png')
+plt.savefig('Burgers.pdf')
