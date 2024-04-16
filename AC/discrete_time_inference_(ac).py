@@ -201,5 +201,6 @@ if __name__ == "__main__":
     ax2.set_xlim([lb-0.1, ub+0.1])
     ax2.legend(loc='upper center', bbox_to_anchor=(0.5, -0.3), ncol=2, frameon=False)
 
-    plt.show()
+    # plt.show()
+    plt.savefig("AC.pdf")
 
