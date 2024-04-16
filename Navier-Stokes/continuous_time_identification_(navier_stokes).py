@@ -379,11 +379,14 @@ if __name__ == "__main__":
 
   plt.legend()
   plt.show()
+  
+  plt.savefig("NavierStokes_data.pdf")
 
 
   fig = plt.figure(figsize=(12, 6))
   gs2 = gridspec.GridSpec(1, 2)
   gs2.update(top=1.0, bottom=0.1, left=0.1, right=0.9, wspace=0.5)
+  
 
   ####### Row 2: Pressure Comparison ##################
 
@@ -412,3 +415,5 @@ if __name__ == "__main__":
   ax2.set_title('Exact Pressure Field')
 
   plt.show()
+  
+  plt.savefig("NavierStokes_prediction.pdf")
